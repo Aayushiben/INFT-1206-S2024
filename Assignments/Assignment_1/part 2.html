@@ -88,3 +88,46 @@
     font-family: Fantasy, sans-serif;
     color: #000;
   }
+  .photos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .photos-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  footer {
+    background-color: #00cc00;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+  }
+
+  footer a {
+    color: #003366;
+  }
+</style>
+
+<body>
+  <header>
+    <div class="logo">
+      <h1>Birdwatching</h1>
+      <img src="pic/dove.png" alt="a simple dove logo" class="icon">
+    </div>
+    <nav>
+      <ul>
+        <li><span>HOME</span></li>
+        <li><a href="#">Get started</a></li>
+        <li><a href="#">Photos</a></li>
+        <li><a href="#">Gear</a></li>
+        <li><a href="#">Forum</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="welcome">
+      <h2>Welcome</h2>
