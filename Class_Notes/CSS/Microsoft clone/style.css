@@ -1,0 +1,38 @@
+body{
+    background-color: red
+} */
+
+nav {
+    border: 1px solid blue;
+    display:flex;
+}
+
+ul {margin: 0;}
+
+
+.left-nav-ul{
+    border: 1px solid red;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.right-nav-ul {
+    border: 1px solid red;
+    
+}
+
+
+
+
+
+microsoft-logo {
+    width: auto;
+    height: 30px;
+}
